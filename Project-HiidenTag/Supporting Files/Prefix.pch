@@ -1,0 +1,22 @@
+//
+//  Prefix.pch
+//  Project-HiidenTag
+//
+//  Created by 超级腕电商 on 2018/4/26.
+//  Copyright © 2018年 超级腕电商. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "DebugTool.h"
+#import "AppMacros.h"
+#import "Masonry.h"
+#import "UIColor+Hex.h"
+#endif
+
+#endif /* Prefix_pch */
